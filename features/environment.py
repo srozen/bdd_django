@@ -1,4 +1,5 @@
 from selenium import webdriver
+from behave import *
 
 
 def before_all(context):

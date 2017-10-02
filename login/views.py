@@ -20,10 +20,10 @@ def login_root(request):
 
             # Login succeeded
             if user is not None:
-                return HttpResponseRedirect(reverse('login.views.login_success'))
+                return HttpResponseRedirect(reverse('login_success'))
 
         # Login failed
-        return HttpResponseRedirect(reverse('login.views.login_fail'))
+        return HttpResponseRedirect(reverse('login_fail'))
 
     return render(request, 'login_root.html')
 
