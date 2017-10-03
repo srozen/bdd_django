@@ -1,0 +1,14 @@
+seleniumbehave==1.2.5
+behave-django==0.5.0
+Django==1.11.5
+django-behave==0.1.5
+enum34==1.1.6
+factory-boy==2.9.2
+Faker==0.8.4
+ipaddress==1.0.18
+parse==1.8.2
+parse-type==0.4.2
+python-dateutil==2.6.1
+pytz==2017.2
+selenium==3.6.0
+six==1.11.0
